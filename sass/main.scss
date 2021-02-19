@@ -3,3 +3,50 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(60deg, #4b4b4b 0%, #131518 100%);
+    font-size: 20px;
+}
+
+label {
+    font-size: 36px;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.passinfo {
+    font-size: 18px;
+    color: rgb(211, 211, 211);
+}
+
+button {
+    margin: 0 30px;
+    padding: 10px 30px;
+    background: none;
+    border: 2px solid #002983;
+    border-radius: 5px;
+    color: #002983;
+    font-size: 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color .3s, box-shadow .3s;
+    box-shadow: 3px 3px 10px #002983;
+}
+
+button:hover {
+    color: #002983;
+    box-shadow: 3px 3px 10px #002983;
+}
